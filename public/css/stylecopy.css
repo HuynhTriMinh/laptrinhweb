@@ -1,0 +1,180 @@
+.container-gioithieu{
+}
+.title-head a{
+    font-weight: inherit;
+    color: #464646;
+    text-decoration: none;
+    background: transparent;
+}
+h1{
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    line-height: 1.4;
+    font-size: 2em;
+    font-weight: bold;
+}
+.general__title h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #252525;
+    border-bottom: 3px solid #0084ff;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 0 7px;
+    margin-bottom: 15px;
+
+}
+.container-info{
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 20px;
+}
+.item-info address {
+    line-height: 22px;
+        display: block;
+}
+/*.item-info {
+    position: relative;
+    padding-left: 30px;
+    color: #555555;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: Arial;
+    margin: 8px 0 10px;
+}*/
+.item-info a[href^='tel:'] {
+    font-size: 14px;
+    color: #ed1c24;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    line-height: 22px;
+}
+.item-info a[href^='mailto:'] {
+    font-size: 14px;
+    color: #555555;
+    font-family: Arial;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    line-height: 22px;
+}
+.item-info a[href^='mailto:']:hover{
+    color: #ed1c24;
+}
+.contact-form input[type="text"], .contact-form input[type="password"], .contact-form input[type="email"], .contact-form textarea, .contact-form select {
+    border: none;
+    outline: none;
+    color: #777;
+    margin: 0;
+    margin: 6px 10px 6px 0px;
+    background: #fff;
+    border: 1px #ddd solid;
+    width: 100%;
+}
+.contact-form .input-text, .contact-form select, .contact-form textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+    color: #aaa;
+}
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.contact-form textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+    color: #aaa;
+    min-height: 130px;
+    margin: 6px 10px 6px 0px;
+    background: #fff;
+}
+.container-info{
+    width: 50%;
+}
+.contact-form .button {
+    border: 1px #ddd solid;
+    background: #fff;
+    padding: 5px 12px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    overflow: visible;
+    cursor: pointer;
+    font: inherit;
+    align-items: flex-start;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+}
+.item-info__icon .fa-map-marker {
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background: #ed1c24;
+}
+.item-info__icon i {
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.item-info__icon .fa-mobile,.item-info__icon .fa-envelope {
+    background: #898989;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 18px;
+}
+.item-info {
+    position: relative;
+    padding-left: 30px;
+    color: #555555;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: Arial;
+    margin: 8px 0 10px;
+}
+.item-info__icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.item-info__icon .fa-envelope {
+    font-size: 11px;
+}

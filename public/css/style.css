@@ -1,0 +1,519 @@
+body 
+{ 
+    margin: 0px; 
+    padding: 0px;
+}
+.clear 
+{ 
+    clear: both; 
+}
+.clearfix:after 
+{ 
+    content: ''; 
+    clear: both; 
+    display: block; 
+}
+@font-face { font-family: 'UTMFrenchVanilla'; src: url("../fonts/UTMFrenchVanilla.eot"); src: url("../fonts/UTMFrenchVanilla.eot") format("embedded-opentype"), url("../fonts/UTMFrenchVanilla.woff2") format("woff2"), url("../fonts/UTMFrenchVanilla.woff") format("woff"), url("../fonts/UTMFrenchVanilla.ttf") format("truetype"), url("../fonts/UTMFrenchVanilla.svg#UTMFrenchVanilla") format("svg"); }
+@font-face { font-family: 'UTMBustamalaka'; src: url("../fonts/UTMBustamalaka.eot"); src: url("../fonts/UTMBustamalaka.eot") format("embedded-opentype"), url("../fonts/UTMBustamalaka.woff2") format("woff2"), url("../fonts/UTMBustamalaka.woff") format("woff"), url("../fonts/UTMBustamalaka.ttf") format("truetype"), url("../fonts/UTMBustamalaka.svg#UTMBustamalaka") format("svg"); }
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+.header{
+    background-image: url(../images/header_bg.png);
+}
+.header-left
+{
+    padding-top: 17px;
+}
+.header-left img{
+    width: 100%;
+}
+.header-mid
+{ 
+    text-align: center;
+}
+.header-mid p
+{
+    margin-bottom: 1px;
+}
+.header-mid-top
+{
+    display: block;
+}
+.header-mid-botton{
+    display: block;
+}
+.header-mid-top p
+{ 
+    font-family: 'UTMFrenchVanilla'; 
+    color: #FA0000; 
+    font-size: 46px; 
+}
+.header-mid-botton p{ font-family: 'UTMBustamalaka'; color: #000; font-size: 26px; }
+@media (min-width:500px ) and (max-width:900px )
+{
+    .header-mid-top p{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+}
+@media (min-width:900px ) and (max-width:1000px )
+{
+    .header-mid-top p{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+}
+.header-right form
+{
+    width: 100%;
+    margin-left: 60px;
+}
+.header-right input{
+    height: 25px;
+}
+.header-right{
+    padding-top: 10px;
+}
+.header-right1{
+    padding-top: 25px;
+    font-size: 14px;
+}
+.sad{
+    background: #0084FF;
+}
+.menu 
+{ 
+    font-size: 16px;
+    margin-top: 10px;
+    width: 89%;
+    margin: auto;
+}
+.menu li{
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+.nav-link p{
+    margin-bottom: 0px
+}
+.nav-link{
+    padding: 0px;
+}
+.menu li a{
+    font-size: 16px;
+}
+.menu a{
+    color: #D1E2FF;
+}
+.banner
+{
+    margin-top:10px;
+}
+.banner-left img{
+    width: 100%;
+}
+.banner-left{
+    padding-right: 0px;
+    padding-left: 0px
+}
+.banner-right{
+    padding-left: 15px;
+    padding-right: 0px
+}
+.banner-right img{
+    width: 100%;
+}
+.banner-right img:last-child{
+    margin-top: 15px;
+}
+.san-pham{
+    background: #F7F7F7;
+}
+.san-pham-noi-bat{
+    font-size: 40px;
+    color: #559FFD;
+    margin-top: 10px;
+}
+.san-pham-noi-bat a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.ghi-chu a{
+    color: #555;
+    text-decoration: none;
+}
+.addtocart a 
+{ 
+    color: #555; 
+    background: url(../images/Icon_giahong2.png) no-repeat left 6px center; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 5px 10px 5px 32px;  
+    font-size: 14px; transition: all 0.5s; 
+    -webkit-transition: all 0.5s; 
+    -o-transition: all 0.5s; 
+    -moz-transition: all 0.5s; 
+}
+.addtocart a:hover { border: 1px solid #f5989d; color: #D36F6F; }
+.ghi-chu a:hover{
+    color: #D36F6F;
+}
+.ghi-chu ul li{
+    display: block;
+}
+.ghi-chu ul li:nth-child(2){
+    color: #676767; 
+    font-size: 12px; 
+    text-decoration: line-through;
+}
+.ghi-chu ul li:nth-child(3){
+    color: red; 
+    font-size: 16px; 
+    font-weight: bold; 
+}
+.home{
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+.home1 img{
+    width: 100%;
+}
+.home2 img{
+    height: 259px;
+}
+.home3 img{
+    height: 400px;
+    width: 75%;
+    margin-top: 25px;
+}
+.home4 img{
+    width: 100%;
+    height: 225px;
+}
+.dich-vu{
+    margin-top: 15px;
+}
+.footer{
+    background: #474747;
+    margin-top: 30px;
+}
+.footer-con
+{
+    color: #fff;
+}
+.footer-con p{
+    margin: auto;
+    margin-top: 2px;
+}
+.footer-left img{
+    padding-right: 20px;
+}
+.footer-left p:first-child{
+    padding-top: 15px;
+    font-size: 40px;
+    color: yellow;
+}
+.footer-left p:last-child{
+    padding-bottom: 25px;
+}
+.footer-mid{
+    text-align: center;
+}
+.footer-mid a{
+    text-decoration: none;
+    color:#fff;
+}
+.footer-mid a:hover{
+    color:blue;
+}
+.footer-mid p:first-child{
+    color: yellow;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 40px;
+}
+.maps{
+    text-align: center;
+    padding-top: 50px;
+}
+.chitiet-sanphamcon img{
+    width: 25%;
+}
+.thongtin{
+    padding-top: 25px;
+}
+.chitiet-gia p{
+    margin: 0px;
+}
+.chitiet-gia b{
+    font-size: 25px;
+    color: red;
+}
+.chitiet-thuonghieu{
+    margin-top:5px;
+}
+.chitiet-thuonghieu p{
+    margin: 0px;
+}
+.chitiet-thuonghieu a{
+    text-decoration: none;
+}
+.chitiet-thuonghieu a:hover{
+    color: red;
+}
+.chitiet-mota{
+    font-size: 14px;
+    color: #555353;
+}
+.chitiet-soluong input{
+    width:60px;
+}
+.chitiet-soluong a{
+    margin-left: 10px;
+}
+.thongtinchitiet{
+    width: 100%;
+    text-align: center;
+}
+.giohang{
+    margin-top:15px;
+}
+.giohang1{
+    border: 1px solid #000;
+    text-align: center;
+}
+.giohang1 img{
+    width: 100%;
+}
+.sanpham{
+    width: 100%;
+}
+.giohang1 input{
+    width: 100%;
+}
+.giohang1 a{
+    text-decoration: none;
+}
+.tong-tien p{
+    float: right;
+}
+.tong-tien hr{
+    margin-top:2rem;
+}
+.tong-tien button{
+    float: right;
+}
+.trove-trangchu a{
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.dangnhap{
+    margin-top: 100px;
+    color: blueviolet;
+}
+.tong-tien a{
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    color: blueviolet;
+}
+.tong-tien a:hover{
+    color: blue;
+}
+.dat-hang{
+    margin-top:20px;
+    color: rebeccapurple;
+}
+.form{
+    font-size: 15px;
+}
+.container-gioithieu{
+}
+.title-head a{
+    font-weight: inherit;
+    color: #464646;
+    text-decoration: none;
+    background: transparent;
+}
+h1{
+    font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif;
+    line-height: 1.4;
+    font-size: 2em;
+    font-weight: bold;
+}
+.general__title h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial;
+    color: #252525;
+    border-bottom: 3px solid #0084ff;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 0 7px;
+    margin-bottom: 15px;
+
+}
+.container-info{
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 20px;
+}
+.item-info address {
+    line-height: 22px;
+        display: block;
+}
+/*.item-info {
+    position: relative;
+    padding-left: 30px;
+    color: #555555;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: Arial;
+    margin: 8px 0 10px;
+}*/
+.item-info a[href^='tel:'] {
+    font-size: 14px;
+    color: #ed1c24;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    line-height: 22px;
+}
+.item-info a[href^='mailto:'] {
+    font-size: 14px;
+    color: #555555;
+    font-family: Arial;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    line-height: 22px;
+}
+.item-info a[href^='mailto:']:hover{
+    color: #ed1c24;
+}
+.contact-form input[type="text"], .contact-form input[type="password"], .contact-form input[type="email"], .contact-form textarea, .contact-form select {
+    border: none;
+    outline: none;
+    color: #777;
+    margin: 0;
+    margin: 6px 10px 6px 0px;
+    background: #fff;
+    border: 1px #ddd solid;
+    width: 100%;
+}
+.contact-form .input-text, .contact-form select, .contact-form textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+    color: #aaa;
+}
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.contact-form textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    outline: none;
+    color: #aaa;
+    min-height: 130px;
+    margin: 6px 10px 6px 0px;
+    background: #fff;
+}
+.container-info{
+    width: 50%;
+}
+.contact-form .button {
+    border: 1px #ddd solid;
+    background: #fff;
+    padding: 5px 12px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    overflow: visible;
+    cursor: pointer;
+    font: inherit;
+    align-items: flex-start;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+}
+.item-info__icon .fa-map-marker {
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    background: #ed1c24;
+}
+.item-info__icon i {
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.item-info__icon .fa-mobile,.item-info__icon .fa-envelope {
+    background: #898989;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    font-size: 18px;
+}
+.item-info {
+    position: relative;
+    padding-left: 30px;
+    color: #555555;
+    line-height: 22px;
+    font-size: 14px;
+    font-family: Arial;
+    margin: 8px 0 10px;
+}
+.item-info__icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.item-info__icon .fa-envelope {
+    font-size: 11px;
+}
+.tintuc img{
+    width:100%; 
+}
